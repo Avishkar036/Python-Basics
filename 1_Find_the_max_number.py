@@ -15,7 +15,7 @@ max(numbers)
 Implement it yourself.
 Also tell me:
 Time Complexity:O(n)
-Space Complexity:
+Space ComplexityO(1):
 '''
 
 def find_max(numbers):
