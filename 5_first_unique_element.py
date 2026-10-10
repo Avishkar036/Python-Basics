@@ -25,10 +25,10 @@ def first_unique_element(numbers):
       counter[num]+=1
     else:
       counter[num]=1
+  unique=None
   for k,v in counter.items():
     if v==1:
       unique=k
       break
-  if unique== None:
-    return None
+  
   return unique
